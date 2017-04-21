@@ -20,4 +20,5 @@ export HISTSIZE=4000
 DT='date +%Y%m%d_%H%M%S'
 export HISTFILE="$HISTDIR/${LOGNAME}/${USER_IP}.hisroty.$DT"
 export HISTTIMEFORMAT="[%Y.%m.%d %H:%M:%S]"
-chmod 600 $HISTDIR/${LOGNAME}/*.history* 2>/dev/null
+chmod  600  $ HISTDIR / $ {LOGNAME} /*.history* 2 > / dev / null
+＃直接将代码复制到/ etc / profile，就能实现
